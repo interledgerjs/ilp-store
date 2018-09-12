@@ -40,7 +40,7 @@ If no parameters are provided it will attempt to find the config in environment 
 
 The Environment variables that can be set are:
 
-`ILP_STORE` : The name/path of the store module
-`ILP_STORE_OPTIONS` : The options passed to the constructor, serialized as a JSON object.
+ - `ILP_STORE` : The name/path of the store module
+ - `ILP_STORE_OPTIONS` : The options passed to the constructor, serialized as a JSON object.
 
 The options object passed are a subset of the configuration object used in `ilp-connector`.
